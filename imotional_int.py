@@ -1,7 +1,7 @@
 from deepface import DeepFace
 import cv2
 import time
-# import face_recognition
+import face_recognition
 
 emotions = []
 cap = cv2.VideoCapture(0)
